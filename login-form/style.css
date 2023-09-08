@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Roboto+Slab&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: seagreen;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./bg-1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box {
+  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 5px 5px 15px white;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin: 10px 0;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+}
+.input-box input::placeholder {
+  color: white;
+}
+
+.input-box i {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+.remember-forget-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.remember-box label {
+  font-size: 15px;
+  color: white;
+}
+
+.remember-forget-box a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.remember-forget-box a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.register {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+.register a {
+  text-decoration: none;
+  color: white;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
